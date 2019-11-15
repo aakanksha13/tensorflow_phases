@@ -18,7 +18,7 @@
 * Change the logistic to fully connected(FC) neural network (2-layered)
 * Change the FC to CNN (inception_v3)
 
-### Phase IV
+## Phase IV
 * Train the inception v3 model with tfrecords that you saved
 * Display the summary in tensorboard
 * Add early-stopping callback for the training
@@ -27,7 +27,7 @@
    * Fine_at, optimizer, learning rate(exponential decay), etc.
 * Add confusion matrix to summary as both image and text
 
-### Phase V
+## Phase V
 * For multiple image files, save model predictions to a file (Filename,truth,predicted,probabability)
 * Add evaluate function that takes a model and tfrecord paths. It returns the accuracy, precision & recall.
 * Add image augmentations as a preprocessing of training images:
